@@ -1,0 +1,3 @@
+[submodule "Repos/jeetelongname"]
+	path = Repos/jeetelongname
+	url = https://github.com/jeetelongname/Dotfiles
