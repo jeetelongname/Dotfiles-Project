@@ -16,11 +16,11 @@ A place to deposit and find Dotfiles
 
 >Since the dawn of time people have wondered how to find and steal configurations. From trawling github to scraping forums people have wanted and easy way to find and learn from others configuration or "dotfiles" The Dotfiles Project aims to bring us out of the Dark ages and into the light
 
-The Dotfiles project wants to help by providing a single place for people to place and find dotfiles. If its just out of casual curiosity or your planning on building your own this is a good place to start!
+The Dotfiles project wants to help by providing a single place for people to place and find dotfiles. If you are here out of casual curiosity or your planning on building your own this is a good place to start!
 
 ## Getting Started
 
-You can explore repository's and take what you want from each user. If you want to explore on your local machine then recursively clone this repository.
+You can explore repository's and take what you want from each user. If you want to explore on your local machine then recursively clone this repository. 
 
 ``` shell
 git clone --recursive https://github.com/jeetelongname/Dotfiles-Project
@@ -45,7 +45,7 @@ make sure that its in the repository folder and that its called your username. T
 
 You should also have a [good README](https://github.com/matiassingers/awesome-readme) saying what you have configured and or what is in the repository. you should also include instructions on how to install (if you have got them...) Screenshots are preferred but not required. 
 
-Once you have done all of that, make a [pull request](https://linuxhint.com/pull_request_github/) and your done! A more detailed list can be found in the [CONTRIBUTING.md](CONTRIBUTING.md) file
+Once you have done all of that, make a [pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) and your done! A more detailed list can be found in the [CONTRIBUTING.md](CONTRIBUTING.md) file
 
 ## Getting help
 If your the kind of person that wants to sort out there own problems then i recommend [the unofficial guide to dotfiles](https://dotfiles.github.io/). If you have more resources do let me know (make an issue and or [email me!](mailto:jeetelongname@gmail.com))

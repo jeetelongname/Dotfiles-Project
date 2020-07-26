@@ -14,11 +14,10 @@ Before you contribute, please read our guidelines carefully.
 
 1. Create a GitHub account.
 2. Fork this repository to your GitHub account.
-3. [Check for issues](https://github.com/KillYourFM/contribute-foss/issues) whether your contribution hasn't been proposed already.
-4. (*Optional*) Create a new branch with a name based on what you want to add.
-5. Edit your fork. Make sure to document your changes in the commit message.
-6. Create a [pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
-7. (*Optional*) If you created a new branch and the pull request is merged, feel free to [delete your branch](https://github.blog/2013-01-09-create-and-delete-branches/).
+3. (*Optional*) Create a new branch with a name based on what you want to add.
+4. Edit your fork. Make sure to document your changes in the commit message.
+5. Create a [pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
+6. (*Optional*) If you created a new branch and the pull request is merged, feel free to [delete your branch](https://github.blog/2013-01-09-create-and-delete-branches/).
 
 ### Steps to contributing (CLI)
 
@@ -32,7 +31,7 @@ Before you contribute, please read our guidelines carefully.
 8. Make your changes. Make sure to document your changes in the commit message.
 9. Push the changes to your repository with these commands:
 
-    ```bash
+    ``` shell
     git add .
     git commit -am "YOUR COMMIT MESSAGE HERE"
     (Optional) git push --set-upstream origin <branch_name>
@@ -42,7 +41,7 @@ Before you contribute, please read our guidelines carefully.
 10. Create a [pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
 11. (*Optional*) If you created a new branch and the pull request is merged, feel free to [delete your branch](https://github.blog/2013-01-09-create-and-delete-branches/) or run these commands:
 
-    ```bash
+    ```shell
     git checkout master
     git push --delete origin <branch_name>
     git branch -d <branch_name>
@@ -56,13 +55,13 @@ Here is a short tutorial from Michael Tunnel <a href="http://www.youtube.com/wat
 
 1. Add a new remote for upstream repository with this command:
 
-    ```bash
+    ```shell
     git remote add upstream https://github.com/jeetelongname/Dotfiles-Project.git
     ```
 
 2. Sync with upstream repository with these commands:
 
-    ```bash
+    ```shell
     git pull origin master
     git pull upstream master
     git push origin master
